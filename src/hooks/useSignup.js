@@ -11,7 +11,7 @@ export const useSignup = () => {
     setError(null);
 
     const response = await fetch(
-      "https://workout-mern-front.onrender.com/api/user/signup",
+      "https://workout-mern-u4i6.onrender.com/api/user/signup",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
